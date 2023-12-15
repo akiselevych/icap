@@ -1,0 +1,164 @@
+@import "@/styles/variables";
+
+.container {
+  max-width: 910px;
+  max-height: 292px;
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+
+  margin: 0 auto 56px;
+
+  @media (max-width: 969px) {
+    display: grid;
+    row-gap: 8px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+  @media (max-width: 500px) {
+    max-height: 400px;
+    margin-bottom: 80px;
+  }
+}
+
+.cards {
+  @media (max-width: 969px) {
+    justify-self: end;
+  }
+  @media (max-width: 500px) {
+    max-height: 200px;
+    width: 100%;
+  }
+}
+
+.card {
+  width: 212px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: center;
+
+  box-shadow: 0px 4px 13px 0px #3F5BEA26;
+
+  border-radius: 8px;
+
+  &:nth-child(n) {
+    background-color: #F5F5F5;
+  }
+
+  &:nth-child(2n) {
+    background-color: #0055DF;
+    color: white;
+  }
+  @media (max-width: 500px) {
+    max-height: 50px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 100%;
+  }
+}
+
+.imageWrapper {
+  border-radius: 12px;
+  overflow: hidden;
+  width: 195px;
+  @media (max-width: 500px) {
+    max-height: 200px;
+    width: fit-content;
+  }
+}
+
+.image {
+  object-fit: contain;
+  //height: 100%;
+}
+
+.numbers {
+  max-width: 219px;
+  display: flex;
+  flex-direction: column;
+  @media (max-width: 969px) {
+    margin: 0 auto;
+    grid-row-start: 2;
+    grid-column: span 3;
+    max-width: none;
+    width: 100%;
+  }
+}
+.smalls{
+  flex: 1;
+  margin-top: 8px;
+  display: flex;
+  gap: 8px;
+  @media (max-width: 969px) {
+    width: 100%;
+  }
+}
+.number {
+  flex: 1;
+  box-shadow: 0px 4px 12px 0px #4E67ED26;
+  border-radius: 8px;
+  padding: 16px;
+  @media (max-width: 969px) {
+    width: 100%;
+  }
+  @media (max-width: 500px) {
+    max-height: 200px;
+  }
+}
+
+.numberTitle {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+
+  margin-bottom: 12px;
+
+  text-align: center;
+  color: $primaryColor;
+}
+
+.numberText {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+
+  text-align: center;
+
+}
+
+.secondImage {
+  max-width: 212px;
+  border-radius: 18px;
+
+  padding: 51px 13px 26px 13px;
+
+  background-image: url("../../../public/assets/blueBc.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  @media (max-width: 969px) {
+    display: none;
+  }
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: center;
+
+  color: white;
+}
+
+.desc {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+
+  color: white;
+}

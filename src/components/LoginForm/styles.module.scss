@@ -1,0 +1,69 @@
+@import "@/styles/variables";
+.container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form{
+  width: 230px;
+}
+.inputWrapper{
+  position: relative;
+  margin-bottom: 16px;
+  width: fit-content;
+}
+.label{
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+.input{
+  padding-top: 12px;
+  padding-left: 16px;
+  padding-bottom: 12px;
+  border-radius: 10px;
+  border: 1px solid #D6D6D6;
+  &:focus{
+    border: 1px solid $primaryColor;
+  }
+}
+.submitBtn{
+  margin-top: 12px;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 30px;
+  border-right: 30px;
+  border: none;
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  &:not(:disabled){
+    background-color: $primaryColor;
+    color: white;
+  }
+  &:disabled{
+    background-color: #DADADA;
+    cursor: not-allowed;
+  }
+}
+
+.showIcon{
+  position: absolute;
+  bottom: 21%;
+  right: 3%;
+  cursor: pointer;
+}
+
+.error{
+  margin-top: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: red;
+}

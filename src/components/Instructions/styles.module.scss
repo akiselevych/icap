@@ -1,0 +1,22 @@
+@import "@/styles/variables";
+
+.container {
+  width: 100%;
+  margin: 0 auto clamp(5rem, 2.045rem + 14.77vw, 11.5rem);
+}
+.title{
+  text-align: center;
+  margin-bottom: 48px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+
+
+  @media (max-width: $mobileSize) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

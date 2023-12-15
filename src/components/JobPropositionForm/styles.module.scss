@@ -1,0 +1,100 @@
+@import "@/styles/variables.scss";
+
+.container {
+    width: 100%;
+    max-width: 492px;
+    background-color: #fff;
+    padding: 32px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 32px 0px rgba(21, 83, 183, 0.06);
+    @media (max-width: $mobileSize) {
+        padding: 8px;
+    }
+}
+.inputBlock {
+    flex: 1 1 auto;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid #f2f2f2;
+    padding: 14px 16px;
+    margin-bottom: 24px;
+}
+.btnGroup {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 10px;
+    @media (max-width: $tabletSize) {
+        flex-direction: column;
+    }
+}
+.btn {
+    width: calc(50% - 5px);
+    white-space: nowrap;
+    @media (max-width: $tabletSize) {
+        width: 100%;
+    }
+}
+.btnText {
+    &::before {
+        content: "..,..";
+        color: transparent;
+        background: url("#{$baseImageUrl2}/addFileIcon.svg") no-repeat center
+            center;
+        width: 16px;
+        height: 16px;
+    }
+}
+.title {
+    margin-bottom: 32px;
+}
+.inputsBlock {
+    margin-bottom: 48px;
+    background-color: #fff;
+}
+.label {
+    position: absolute;
+    font-size: 12px;
+    line-height: 14px;
+    top: -7px;
+    background: #fff;
+}
+.input {
+    width: 100%;
+    border: none;
+    width: 100%;
+    height: 100%;
+    &::placeholder {
+        color: #bdbdbd;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+}
+.textarea {
+    line-height: 20px;
+    height: 128px;
+    box-sizing: border-box;
+    &::placeholder {
+        color: #bdbdbd;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+}
+.error {
+    color: red;
+    position: absolute;
+    bottom: -20px;
+    font-size: 12px;
+}
+.fileError {
+    position: static;
+}
+.textBar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

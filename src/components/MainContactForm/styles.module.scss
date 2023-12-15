@@ -1,0 +1,112 @@
+@import "@/styles/variables";
+
+.container {
+    width: 100%;
+    display: flex;
+    gap: 132px;
+    @media (max-width: 970px) {
+        gap: 50px;
+    }
+
+    @media (max-width: 780px) {
+        gap: 20px;
+    }
+    @media (max-width: 650px) {
+        flex-direction: column-reverse;
+    }
+}
+.title {
+    margin-bottom: 32px;
+}
+
+.leftSide {
+    position: relative;
+    min-width: calc(50% - 66px);
+    display: flex;
+    align-items: center;
+}
+.radial {
+    border-radius: 50%;
+    position: absolute;
+    top: -10%;
+    left: -30%;
+    width: 300px;
+    height: 400px;
+
+    background: hsla(216, 100%, 92%, 1);
+
+    background: radial-gradient(
+        circle,
+        hsla(216, 100%, 92%, 1) 0%,
+        hsla(0, 0%, 100%, 1) 50%
+    );
+
+    background: -moz-radial-gradient(
+        circle,
+        hsla(216, 100%, 92%, 1) 0%,
+        hsla(0, 0%, 100%, 1) 50%
+    );
+
+    background: -webkit-radial-gradient(
+        circle,
+        hsla(216, 100%, 92%, 1) 0%,
+        hsla(0, 0%, 100%, 1) 50%
+    );
+    z-index: -1;
+    @media (max-width: 950px) {
+        height: 240px;
+    }
+}
+
+.image {
+    max-width: 370px;
+    max-height: 406px;
+    width: 100%;
+    z-index: 55;
+    @media (max-width: 650px) {
+        height: auto;
+    }
+}
+.rightSide {
+    flex: 1;
+    min-width: calc(50% - 66px);
+}
+
+.inputBlock {
+    flex: 1 1 auto;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid #f2f2f2;
+    padding: 14px 16px;
+    margin-bottom: 24px;
+}
+.label {
+    position: absolute;
+    font-size: 12px;
+    line-height: 14px;
+    top: -7px;
+    background: #fff;
+}
+.input {
+    width: 100%;
+    border: none;
+    width: 100%;
+    height: 100%;
+    &::placeholder {
+        color: #bdbdbd;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+}
+.textarea {
+    line-height: 20px;
+    height: 128px;
+    box-sizing: border-box;
+    &::placeholder {
+        color: #bdbdbd;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+}

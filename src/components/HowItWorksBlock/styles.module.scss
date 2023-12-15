@@ -1,0 +1,28 @@
+@import "@/styles/variables";
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    margin: 132px auto clamp(5rem, 2.045rem + 14.77vw, 11.5rem);
+
+    @media (max-width: $tabletSize) {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+}
+.sectionTitle {
+    text-align: center;
+}
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+
+    @media (max-width: 697px) {
+        gap: 45px;
+    }
+}

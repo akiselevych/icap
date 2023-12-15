@@ -1,0 +1,25 @@
+
+.container{
+  margin-bottom: clamp(3rem, 2.773rem + 1.14vw, 3.5rem);
+}
+.title{
+  margin-bottom: clamp(0.5rem, 0.159rem + 1.7vw, 1.25rem);
+
+
+  text-align: center;
+  font-size: clamp(1.5rem, 0.591rem + 4.55vw, 3.5rem);
+  font-weight: 700;
+  line-height: clamp(2.25rem, 1.455rem + 3.98vw, 4rem);
+}
+.desc{
+  font-size: clamp(1rem, 0.943rem + 0.28vw, 1.125rem);
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: center;
+
+  margin-bottom: clamp(1.25rem, 1.023rem + 1.14vw, 1.75rem);
+}
+.btn{
+  margin: 0 auto;
+}

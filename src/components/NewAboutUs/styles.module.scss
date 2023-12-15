@@ -1,0 +1,58 @@
+
+.container{
+  margin-bottom: clamp(5rem, 2.045rem + 14.77vw, 11.5rem);
+}
+.title{
+  margin-bottom: 8px;
+  text-align: center;
+}
+.desc{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+.content{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  @media (max-width: 992px) {
+    justify-content: center;
+    gap: 24px;
+  }
+}
+.card{
+  box-shadow: 0px 4px 20px 0px #402ACC26;
+  padding: 24px;
+  border-radius: 8px;
+}
+.imageWrapper{
+  position: relative;
+  margin-bottom: 18px;
+}
+.personImage{
+  max-width: 260px;
+  max-height: 268px;
+  object-fit: cover;
+}
+.mailIcon{
+  display: block;
+  position: absolute;
+  bottom: -10px;
+  right: 10px;
+  height: 40px;
+  width: 40px;
+}
+.name{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 6px;
+}
+.position{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}

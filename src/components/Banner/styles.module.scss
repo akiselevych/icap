@@ -1,0 +1,102 @@
+@import "@/styles/variables";
+.container {
+  box-shadow: 0px 0px 32px 0px #1553B70F;
+  background-color: #FFFFFF;
+  color: black;
+  max-width: 960px;
+  position: fixed;
+  bottom: 2%;
+  right: 50%;
+  transform: translateX(50%);
+  z-index: 9914123;
+  padding: 40px;
+  border-radius: 8px;
+  min-width: 320px;
+  @media (max-width: 670px) {
+    width: 70%;
+  }
+}
+.header{
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: clamp(1.75rem, 1.683rem + 0.4vw, 2rem);
+}
+.title{
+  //width: 70%;
+}
+
+
+
+.text{
+  font-size: clamp(0.75rem, 0.683rem + 0.4vw, 1rem);
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 32px;
+
+  & > span {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+.link {
+  text-decoration: underline;
+}
+
+
+.desc{
+  text-align: center;
+}
+
+.btnContainer{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  @media (max-width: 670px) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+
+
+.acceptBtn{
+  font-size: clamp(0.75rem, 0.683rem + 0.4vw, 1rem);
+  font-weight: 400;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.additionalBtn{
+  font-size: clamp(0.75rem, 0.683rem + 0.4vw, 1rem);
+  font-weight: 400;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.declineBtn{
+  font-size: clamp(0.75rem, 0.683rem + 0.4vw, 1rem);
+  font-weight: 400;
+  line-height: 24px;
+  white-space: nowrap;
+  border: none;
+
+  &:hover{
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+  }
+}
+
+.closeBtn{
+  cursor: pointer;
+  position: absolute;
+  right: 1.5%;
+  top: 4%;
+  transform: scale(1.5);
+
+  @media (max-width: $tabletSize) {
+    right: 3%;
+  }
+}

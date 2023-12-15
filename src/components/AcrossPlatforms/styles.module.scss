@@ -1,0 +1,74 @@
+@import "@/styles/variables";
+
+.container{
+
+}
+
+.title{
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.content{
+  display: flex;
+  gap: 34px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.block{
+  max-width: 370px;
+  max-height: 270px;
+  width: 100%;
+  height: 100%;
+  padding: 32px;
+  box-shadow: 0px 0px 32px 0px #1553B70F;
+  transition: all .3s ease-in-out;
+  &:hover{
+    transform: scale3d(1.15,1.15,1.15);
+    box-shadow: 0px 0px 32px 0px rgba(20, 84, 186, 0.44);
+    @media (max-width: 768px) {
+      transform: none;
+    }
+
+    .blockIcon{
+      animation: wave 3s infinite both;
+    }
+  }
+}
+
+.blockIcon{
+  width: 64px;
+  height: 64px;
+  margin-bottom: 32px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+.blockTitle{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.blockText{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+
+@keyframes wave {
+  0%,50%,100%{
+    transform: translateX(0%);
+  }
+  25%{
+    transform: translateX(2px) rotate(15deg);
+  }
+  75%{
+    transform: translateX(-2px) rotate(-15deg);
+  }
+}

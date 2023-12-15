@@ -1,0 +1,18 @@
+.container {
+    width: 100%;
+}
+.cardWrapper {
+    width: max-content;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+}

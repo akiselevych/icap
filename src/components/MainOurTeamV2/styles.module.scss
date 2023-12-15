@@ -1,0 +1,144 @@
+@import "@/styles/variables";
+
+.container {
+    margin-top: 120px;
+    display: flex;
+    //align-items: center;
+    gap: 24px;
+    @media (max-width: $tabletSize) {
+        gap: 24px;
+        margin-top: 80px;
+        flex-direction: column-reverse;
+    }
+}
+.titleBlock {
+    display: flex;
+    flex-direction: column;
+}
+.smallText {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: $primaryColor;
+    margin-bottom: 12px;
+    @media (max-width: $tabletSize) {
+        font-size: 16px;
+        line-height: 24px; /* 150% */
+        letter-spacing: 0.32px;
+    }
+}
+.title {
+    text-align: center;
+    margin-bottom: 12px;
+}
+.text {
+    @media (max-width: $tabletSize) {
+        text-align: center;
+    }
+}
+.leftCol {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.rightCol {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.card {
+    box-sizing: border-box;
+    width: calc(33% - 22px);
+     height: 100%;
+    min-height: max-content;
+    min-width: 280px;
+    max-width: 362px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0px 4px 20px 0px rgba(64, 42, 204, 0.15);
+    padding: 24px;
+    @media (max-width: $tabletSize) {
+        width: 100%;
+    }
+}
+
+.imageWrapper {
+    width: 100%;
+    height: 268px;
+}
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.textBlock {
+    display: flex;
+    flex-direction: column;
+}
+.name {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 6px;
+    @media (max-width: $tabletSize) {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+}
+.position {
+    color: #2e2e2e;
+}
+.btn {
+    border-radius: 8px;
+    background: #e9f3ff;
+    border: 1px solid #e9f3ff;
+    @media (max-width: $tabletSize) {
+        margin: 0 auto;
+    }
+}
+.skeletCard {
+    width: calc(33% - 22px);
+    height: 386px;
+    border-radius: 8px;
+    @media (max-width: $tabletSize) {
+        width: 100%;
+    }
+}
+.linksBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.mobile {
+    display: none;
+    @media (max-width: $tabletSize) {
+        display: flex;
+    }
+}
+.desktop {
+    display: flex;
+    @media (max-width: $tabletSize) {
+        display: none;
+    }
+}
+.contact {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.iconWrapper {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid #0e65f1;
+}

@@ -1,0 +1,62 @@
+@import "@/styles/variables";
+
+.container {
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 18px;
+}
+.subtitle {
+    color: #2e2e2e;
+    text-align: center;
+    margin-bottom: 10px;
+    @media (max-width: $tabletSize) {
+        margin-bottom: 37px;
+    }
+}
+.achivementsBlock {
+    display: flex;
+    justify-content: space-between;
+    gap: 64px;
+    @media (max-width: $tabletSize) {
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+}
+.divider {
+    height: 99px;
+    width: 1px;
+    background: #1f2125;
+    display: inline-block;
+    @media (max-width: $tabletSize) {
+        height: 1px;
+        width: 99px;
+    }
+}
+.value {
+    color: #0e65f1;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px; /* 112.5% */
+    text-align: center;
+    @media (max-width: $tabletSize) {
+        font-size: 52px;
+        line-height: 72px;
+    }
+}
+.text {
+    color: #2e2e2e;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 222.222% */
+    text-align: center;
+    @media (max-width: $tabletSize) {
+        font-size: 18px;
+        line-height: 40px;
+    }
+}

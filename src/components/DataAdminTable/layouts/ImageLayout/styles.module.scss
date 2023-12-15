@@ -1,0 +1,48 @@
+@import "@/styles/variables";
+
+.container{
+
+}
+.header{
+  padding: 20px 18px;
+  display: grid;
+  grid-template-columns: 4.6fr 3.6fr 2.6fr 2fr;
+  border: 1px solid #DEDEDE;
+}
+.colName{
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.table{
+  border-left: 1px solid #DEDEDE;
+}
+.row{
+  display: grid;
+  grid-template-columns: 4fr 3fr 2fr 2fr;
+}
+.col{
+  padding: 20px 18px 33px;
+  border-right: 1px solid #DEDEDE;
+  border-bottom: 1px solid #DEDEDE;
+  position: relative;
+  &:first-child{
+    background-color: #f2f2f2;
+  }
+}
+.label{
+  display: block;
+}
+.image{
+  object-fit: contain;
+}
+.input{
+  height: 100%;
+  padding-top: 12px;
+  padding-left: 16px;
+  padding-bottom: 12px;
+  &:focus{
+    border: 1px solid $primaryColor;
+  }
+}

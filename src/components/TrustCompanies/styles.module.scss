@@ -1,0 +1,100 @@
+@import '@/styles/variables';
+.container{
+  padding-top: 28px;
+  padding-bottom: 28px;
+  position: relative;
+  @media (max-width: 630px) {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  @media (max-width: 350px) {
+    padding: 0;
+  }
+}
+.grey{
+  &::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100vw;
+    background-color: #F6F6F6;
+    z-index: -1;
+  }
+}
+.wrapper{
+  @media (min-width: 561px) {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+.title{
+  text-align: center;
+  margin-bottom: 36px;
+}
+.content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  //flex-wrap: wrap;
+  gap: 8px;
+  @media (max-width: 560px) {
+    display: none;
+  }
+}
+
+
+.logoWrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logos {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  @media (min-width: 561px) {
+    display: none;
+  }
+}
+
+.logos:before,
+.logos:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+
+  @media (max-width: $tabletSize) {
+    width: 150px;
+  }
+  @media (max-width: $mobileSize) {
+    width: 90px;
+  }
+}
+
+.logoSlide {
+  animation: slide 19s linear infinite running;
+}
+
+.logoSlide img {
+  border-radius: 10px;
+  padding: 10px;
+  width: auto;
+  height: 44px;
+  margin-right: 20px;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}

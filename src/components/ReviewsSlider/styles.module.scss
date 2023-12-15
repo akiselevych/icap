@@ -1,0 +1,90 @@
+@import "@/styles/variables";
+.container{
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  @media (max-width: 800px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+}
+
+.left{
+  max-width: 420px;
+}
+.title{
+  margin-bottom: 20px;
+   @media (max-width: 800px) {
+    text-align: center;
+  }
+}
+.desc{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+   @media (max-width: 800px) {
+     text-align: center;
+  }
+}
+
+.right{
+  max-width: 524px;
+  @media (max-width: 550px) {
+    max-width: 410px;
+  }
+  @media (max-width: 425px) {
+    max-width: 350px;
+  }
+  @media (max-width: 360px) {
+    max-width: 300px;
+  }
+}
+
+.slider{
+
+}
+.slide{
+  margin-bottom: 32px;
+}
+.reviewCard{
+  border-radius: 12px;
+  margin: 20px;
+  box-shadow: 0px 4px 20px 0px #27339D26;
+  padding: 40px 32px;
+  @media (max-width: 450px) {
+    padding: 24px 20px;
+    margin: 14px;
+  }
+}
+.reviewText{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+.reviewPerson{
+  display: flex;
+  gap: 12px;
+}
+.image{
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+}
+.info{
+
+}
+.name{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: $primaryColor;
+  margin-bottom: 8px;
+}
+.company{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}

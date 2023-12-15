@@ -1,0 +1,206 @@
+@import "@/styles/variables";
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+}
+.image {
+    max-width: 298px;
+    width: auto;
+    height: auto;
+    margin-bottom: 64px;
+}
+.tttle {
+    margin-bottom: 24px;
+}
+.subTitle {
+    margin-bottom: 48px;
+}
+.radial1 {
+    position: absolute;
+    top: 0%;
+    left: 21%;
+    width: 300px;
+    height: 400px;
+
+    background: hsla(216, 100%, 92%, 1);
+
+    background: radial-gradient(
+        circle,
+        hsla(216, 100%, 92%, 1) 0%,
+        hsla(0, 0%, 100%, 1) 50%
+    );
+
+    background: -moz-radial-gradient(
+        circle,
+        hsla(216, 100%, 92%, 1) 0%,
+        hsla(0, 0%, 100%, 1) 50%
+    );
+
+    background: -webkit-radial-gradient(
+        circle,
+        hsla(216, 100%, 92%, 1) 0%,
+        hsla(0, 0%, 100%, 1) 50%
+    );
+    z-index: -1;
+    @media (max-width: 950px) {
+        top: 20%;
+
+        height: 240px;
+    }
+    @media (max-width: 400px) {
+        width: 180px;
+        height: 180px;
+
+        background: hsla(216, 100%, 92%, 1);
+
+        background: radial-gradient(
+            circle,
+            hsla(216, 100%, 92%, 1) 0%,
+            hsla(0, 0%, 100%, 1) 80%
+        );
+
+        background: -moz-radial-gradient(
+            circle,
+            hsla(216, 100%, 92%, 1) 0%,
+            hsla(0, 0%, 100%, 1) 80%
+        );
+
+        background: -webkit-radial-gradient(
+            circle,
+            hsla(216, 100%, 92%, 1) 0%,
+            hsla(0, 0%, 100%, 1) 80%
+        );
+    }
+}
+
+.radial2 {
+    position: absolute;
+    top: 48%;
+    right: 25%;
+    width: 250px;
+    height: 300px;
+
+    background: hsla(216, 100%, 92%, 1);
+
+    background: radial-gradient(
+        circle,
+        hsla(216, 100%, 92%, 1) 0%,
+        hsla(0, 0%, 100%, 1) 50%
+    );
+
+    background: -moz-radial-gradient(
+        circle,
+        hsla(216, 100%, 92%, 1) 0%,
+        hsla(0, 0%, 100%, 1) 50%
+    );
+
+    background: -webkit-radial-gradient(
+        circle,
+        hsla(216, 100%, 92%, 1) 0%,
+        hsla(0, 0%, 100%, 1) 50%
+    );
+    z-index: -1;
+
+    @media (max-width: 950px) {
+        top: 80%;
+
+        height: 240px;
+    }
+}
+
+.radial3 {
+    position: absolute;
+    bottom: -15%;
+    left: 25%;
+    width: 250px;
+    height: 300px;
+
+    background: hsla(216, 100%, 92%, 1);
+
+    background: radial-gradient(
+        circle,
+        hsla(216, 100%, 92%, 1) 0%,
+        hsla(0, 0%, 100%, 1) 50%
+    );
+
+    background: -moz-radial-gradient(
+        circle,
+        hsla(216, 100%, 92%, 1) 0%,
+        hsla(0, 0%, 100%, 1) 50%
+    );
+
+    background: -webkit-radial-gradient(
+        circle,
+        hsla(216, 100%, 92%, 1) 0%,
+        hsla(0, 0%, 100%, 1) 50%
+    );
+    z-index: -1;
+    @media (max-width: 950px) {
+        display: none;
+    }
+}
+.radial4 {
+    position: absolute;
+    bottom: -25%;
+    right: 10%;
+    width: 250px;
+    height: 300px;
+
+    background: hsla(216, 100%, 92%, 1);
+
+    background: radial-gradient(
+        circle,
+        hsla(216, 100%, 92%, 1) 0%,
+        hsla(0, 0%, 100%, 1) 50%
+    );
+
+    background: -moz-radial-gradient(
+        circle,
+        hsla(216, 100%, 92%, 1) 0%,
+        hsla(0, 0%, 100%, 1) 50%
+    );
+
+    background: -webkit-radial-gradient(
+        circle,
+        hsla(216, 100%, 92%, 1) 0%,
+        hsla(0, 0%, 100%, 1) 50%
+    );
+    z-index: -1;
+    @media (max-width: 950px) {
+        display: none;
+    }
+}
+.radial5 {
+    position: absolute;
+    bottom: 0%;
+    left: 5%;
+    width: 250px;
+    height: 300px;
+
+    background: hsla(216, 100%, 92%, 1);
+
+    background: radial-gradient(
+        circle,
+        hsla(216, 100%, 92%, 1) 0%,
+        hsla(0, 0%, 100%, 1) 50%
+    );
+
+    background: -moz-radial-gradient(
+        circle,
+        hsla(216, 100%, 92%, 1) 0%,
+        hsla(0, 0%, 100%, 1) 50%
+    );
+
+    background: -webkit-radial-gradient(
+        circle,
+        hsla(216, 100%, 92%, 1) 0%,
+        hsla(0, 0%, 100%, 1) 50%
+    );
+    z-index: -1;
+    @media (max-width: 1250px) {
+        display: none;
+    }
+}

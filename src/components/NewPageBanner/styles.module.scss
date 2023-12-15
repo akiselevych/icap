@@ -1,0 +1,55 @@
+@import "@/styles/variables";
+
+.container {
+  display: flex;
+  align-items: center;
+  padding-bottom: 54px;
+  border-bottom: 1px solid #B4B4B4;
+  @media (max-width: $tabletSize) {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.left {
+  max-width: 576px;
+}
+
+
+.title {
+  margin-bottom: clamp(1rem, 0.318rem + 3.41vw, 2.5rem);
+  max-width: 540px;
+  @media (max-width: $tabletSize) {
+    text-align: center;
+  }
+}
+
+.colored {
+  color: $primaryColor;
+}
+
+.desc {
+  font-size: clamp(1rem, 0.886rem + 0.57vw, 1.25rem);
+  font-weight: 400;
+  line-height: clamp(1.5rem, 1.386rem + 0.57vw, 1.75rem);
+  margin-bottom: clamp(1rem, 0.318rem + 3.41vw, 2.5rem);
+  @media (max-width: $tabletSize) {
+    text-align: center;
+  }
+}
+
+.btn {
+  @media (max-width: $tabletSize) {
+    margin: 0 auto;
+  }
+}
+
+.right {
+  position: relative;
+}
+
+.image {
+  width: 489px;
+  height: 526px;
+  object-fit: contain;
+}

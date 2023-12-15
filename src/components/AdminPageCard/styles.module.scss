@@ -1,0 +1,92 @@
+@import "@/styles/variables";
+
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.btnBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    height: 100%;
+}
+.btn {
+    width: 120px;
+}
+.newsWrapper {
+    width: 100%;
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    .imageBlock {
+        height: 153px;
+        width: 238px;
+        border-radius: 8px;
+        background: #ebebeb;
+
+        img {
+            object-fit: cover;
+            border-radius: 8px;
+        }
+    }
+    .textBlock {
+        max-width: 600px;
+    }
+    .title {
+        margin-bottom: 8px;
+    }
+    .descr {
+        margin-bottom: 16px;
+    }
+    .date {
+        color: $greyColor;
+    }
+}
+.jobsWrapper {
+    width: 100%;
+    padding: 24px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0px 0px 32px 0px rgba(21, 83, 183, 0.06);
+    .title {
+        margin-bottom: 8px;
+    }
+    .dateBlock {
+        display: flex;
+        align-items: center;
+        color: $greyColor;
+        margin-bottom: 8px;
+    }
+    .optionRow {
+        color: $greyColor;
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        margin-bottom: 12px;
+    }
+    .city {
+        position: relative;
+        text-align: center;
+    }
+    .city::after,
+    .type::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: -6px;
+        height: 2px;
+        width: 2px;
+        border-radius: 50%;
+        background-color: #bdbdbd; /* Your desired background color */
+    }
+
+    .type {
+        position: relative;
+        text-align: center;
+    }
+}

@@ -1,0 +1,28 @@
+@import "@/styles/variables";
+
+.conatiner {
+    padding: 8px;
+    padding: 64px 0 32px 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+    overflow: scroll;
+}
+
+.menuList {
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.contactBlock {
+    margin-bottom: 8px;
+    div {
+        width: 100% !important;
+    }
+}

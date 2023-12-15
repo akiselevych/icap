@@ -1,0 +1,136 @@
+@import "@/styles/variables";
+
+.primaryButton {
+    position: relative;
+    padding: 16px 32px;
+    background-color: $primaryColor;
+    color: $secondaryColor;
+    border-radius: 8px;
+    border: 1px solid $primaryColor;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    box-shadow: 0px 0px 32px 0px rgba(14, 101, 241, 0.32);
+    &:hover {
+        background: #397be5;
+    }
+    &:focus {
+        background: #1961be;
+    }
+    &:disabled {
+        cursor: not-allowed;
+        background-color: grey;
+        border: 1px solid grey;
+    }
+}
+.disablePrimaryButton {
+    position: relative;
+    background: #e5e8f0;
+    color: #9fa5b9;
+    pointer-events: none;
+    cursor: not-allowed;
+    &:hover {
+        background: #e5e8f0;
+    }
+    &:active {
+        background: #e5e8f0;
+    }
+    box-shadow: none;
+}
+
+.secondaryButton {
+    position: relative;
+    padding: 16px 32px;
+    background-color: $secondaryColor;
+    color: $primaryColor;
+    border: 1px solid $primaryColor;
+    border-radius: 8px;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    &:hover {
+        border: 1px solid #397be5;
+        background: #e9f3ff;
+    }
+    &:active {
+        border: 1px solid #1961be;
+        background: #c8defb;
+    }
+}
+
+.disableSecondaryButton {
+    border: 1px solid #9fa5b9;
+    color: #9fa5b9;
+    cursor: not-allowed;
+    &:hover {
+        background: #fff;
+    }
+    &:active {
+        background: #fff;
+    }
+    box-shadow: none;
+}
+.tertiaryButton {
+    padding: 16px 32px;
+    background-color: rgba(0, 0, 0, 0);
+    color: $primaryColor;
+    border-radius: 8px;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    &:hover {
+        background: #e9f3ff;
+    }
+    &:active {
+        background: #c8defb;
+    }
+}
+.disableTertiaryButton {
+    background: #e5e8f0;
+    color: #9fa5b9;
+    pointer-events: none;
+    cursor: not-allowed;
+    &:hover {
+        background: #e5e8f0;
+    }
+    &:active {
+        background: #e5e8f0;
+    }
+    box-shadow: none;
+}
+.pageTitle {
+    font-size: clamp(1.75rem, 1.182rem + 2.84vw, 3rem);
+    font-style: normal;
+    font-weight: 700;
+    line-height: clamp(2.5rem, 1.818rem + 3.41vw, 4rem);
+}
+.sectionTitle {
+    font-size: clamp(1.75rem, 1.409rem + 1.7vw, 2.5rem);
+    font-style: normal;
+    font-weight: 700;
+    line-height: clamp(2.5rem, 2.045rem + 2.27vw, 3.5rem);
+}
+.mediumTitle {
+    font-size: clamp(1.25rem, 1.136rem + 0.57vw, 1.5rem);
+    font-style: normal;
+    font-weight: 700;
+    line-height: clamp(1.5rem, 1.273rem + 1.14vw, 2rem);
+}
+.smallTitle {
+    font-size: clamp(1rem, 0.886rem + 0.57vw, 1.25rem);
+    font-style: normal;
+    font-weight: 700;
+    line-height: clamp(1.25rem, 1.136rem + 0.57vw, 1.5rem);
+}
+.startProjectBlock {
+    width: 50%;
+}

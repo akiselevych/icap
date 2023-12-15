@@ -1,0 +1,571 @@
+{
+    "topBarDropdownMenuWebpage": "TEST ENGLISH",
+    
+    "topBarDropdownMenuWebpageButton1": "Web Anwendungen",
+    
+    "topBarDropdownMenuWebpageButton2": "Mobile Anwendungen",
+    
+    "topBarDropdownMenuWebpageButton3": "Digitalisierung",
+    
+    "topBarDropdownMenuWebpageButton4": "Automatisierung",
+    
+    
+    "topBarMenuWebpageButton1": "Unsere Projekte",
+    
+    
+    "topBarMenuWebpageButton2": "Über uns",
+    
+    
+    "topBarMenuWebpageButton3": "Kontakt",
+    
+    
+    
+    
+    
+    "mainMenuWebpageBanner1": "Digitaler Erfolg mit uns",
+    
+    
+    "mainMenuWebpageBanner2": "Technologie ist nicht nur ein Code, sie ist die Sprache der Zukunft.",
+    
+    
+    "mainMenuWebpageBanner3": "Kostenlos beraten lassen",
+    
+    
+    
+    
+    
+    "ourServicesWebpage": "Unsere Dienstleistungen",
+    
+    
+    "ourServicesWebpageSection1": "Web Anwendungen",
+    
+    
+    "ourServicesWebpageSection2": "Die Cloud verbindet Ihre Mitarbeiter, Kunden und Prozesse miteinander.",
+    
+    
+    "ourServicesWebpageSection3": "Mehr erfahren",
+    
+    
+    
+    
+    
+    "ourServicesWebpageSection4": "Mobile Anwendungen",
+    
+    
+    "ourServicesWebpageSection5": "Digitalisierung",
+    
+    
+    "ourServicesWebpageSection6": "Von der analogen Welt zur digitalen Realität - ein innovativer Transformationsprozess.",
+    
+    
+    "ourServicesWebpageSection7": "Mehr erfahren",
+    
+    
+    
+    
+    
+    "ourServicesWebpageSection8": "Automatisierung",
+    
+    
+    "ourServicesWebpageSection9": "Die Zukunft hat bereits begonnen: schlanke Prozesse durch Automatisierung.",
+    
+    
+    "ourServicesWebpageSection10": "Mehr erfahren",
+    
+    
+    
+    
+    
+    "ourServicesSection1": "Web Anwendungen",
+    
+    
+    "webAppsSection1": "Wir bieten eine Vielzahl von Dienstleistungen im Bereich Webentwicklung an, um funktionale, ansprechende und effiziente Websites, Webanwendungen und Systeme zu erstellen. Unser Leistungsspektrum umfasst Front- und Back-End-Entwicklung, Content-Management-Systeme (CMS), Web-Frameworks und Bibliotheken, Web-Visitenkarte, Geschäftsseite, Web-APIs, Sicherheitssysteme und Web-Lösungen für Ihre Bedürfnisse.",
+    
+    
+    
+    
+    
+    "webAppsHowDoesItWork2": "Wie funktioniert es?",
+    
+    
+    "webAppsHowDoesItWork3": "Ziele definieren",
+    
+    "webAppsHowDoesItWork4": "Was soll erzielt werden? Wie soll dies erreicht werden?",
+    
+    
+    "webAppsHowDoesItWork5": "Design Entwurf",
+    
+    "webAppsSection6": "Wir bringen Ihre Vorstellungen auf den Bildschirm.",
+    
+    
+    "webAppsSection7": "Entwurf finalisieren",
+    
+    "webAppsHowDoesItWork8": "Die endgültige Version ist der endgültige Ausdruck der Produktidee.",
+    
+    
+    "webAppsHowDoesItWork9": "Beginn der Entwicklung",
+    
+    "webAppsHowDoesItWork10": "Das Design wird in die Realität umgesetzt.",
+    
+    
+    "webAppsHowDoesItWork11": "Abnahme",
+    
+    "webAppsHowDoesItWork12": "Wir testen, verbessern und implementieren das System in Ihre Infrastruktur.",
+    
+    
+    "webAppsHowDoesItWork13": "Wartung & Support",
+    
+    "webAppsHowDoesItWork14": "Nach Abschluss stehen wir Ihnen weiterhin verlässlich zur Seite.",
+    
+    
+    
+    
+    
+    "webAppsExample1": "Beispiel: Ökumenische Energiegenossenschaft Baden-Württemberg",
+    
+    "webAppsExample2": "Alle Daten und Prozesse in einem System",
+    
+    
+    "webAppsExample3": "Alle Daten in einem System",
+    
+    "webAppsExample4": "Nutzbare und interaktive Live-Datenbanken zu Kunden, Mitarbeitern, Lieferanten und Lagerbeständen. So einfach kann Ordnung sein.",
+    
+    
+    "webAppsExample5": "Standarisierte Angebotserstellung",
+    
+    "webAppsExample6": "Standarisierte Angebotsvorlage, die automatische Erstellung und Versendung der Angebote und Rechnungen spart dem Projektleiter über 1 Stunde Zeit.",
+    
+     
+    "webAppsExample7": "Wirtschaftliche Auswertung",
+    
+    "webAppsExample8": "Live Auswertung der Wirtschaftlichkeit von Projekten und der gesamten Firma. Ermöglicht vitale Rückschlüsse, für nachhaltigen Erfolg.",
+    
+    
+    "webAppsExample9": "Buchhaltung",
+    
+    "webAppsExample10": "Alle Rechnungen und Dokumente sicher in der Cloud gespeichert und jederzeit zugänglich. Personalstunden und Reisekosten und Speßen ebenfalls erfasst.",
+    
+    
+    "webAppsResult1": "Ergebnis",
+    
+    "webAppsResult2": "spart pro Projekt -> 3,5 Stunden",
+    
+    
+    
+    
+    
+    "webAppsAnalysis1": "Kostenlose Analyse Ihres Vorhabens",
+    
+    "webAppsAnalysis2": "Wir analysieren Ihr Vorhaben auf Sinnhaftigkeit, den zu erwartenden Nutzen und erstellen Ihnen ein Angebot.",
+    
+    "webAppsAnalysis3": "Kostenlosen Termin ausmachen",
+    
+    
+    
+    
+    
+    "afterClickOnwebAppsAnalysis3": "Starten Sie jetzt Ihr Projekt",
+    
+    "ContactForm1": "Vorname",
+    
+    "ContactForm2": "Nachname",
+    
+    "ContactForm3": "Name des Unternehmens",
+    
+    "ContactForm4": "E-Mail",
+    
+    "ContactForm5": "Telefon",
+    
+    "ContactForm6": "Notizen",
+    
+    "ContactForm6": "Sagen Sie uns, womit wir Ihnen helfen können",
+    
+    "ContactForm7": "Einreichen",
+    
+     
+    
+    
+    
+    "mobileAppsSection2": "Steigern Sie die Effizienz Ihrer Geschäftsabläufe mit unseren maßgeschneiderten B2B Mobile Applications. Getreu dem Motto: Bildschirm statt Papier. Von Mitarbeiter-Apps bis zur beschleunigten Datenverarbeitung – unsere Lösungen sparen wertvolle Zeit und fördern reibungslose Zusammenarbeit.",
+    
+    
+    
+    
+    
+    "mobileAppsHowDoesItWork1": "Wie funktioniert es?",
+    
+    
+    "mobileAppsHowDoesItWork2": "Ziele definieren",
+    
+    "mobileAppsHowDoesItWork3": "Was soll erzielt werden? Wie soll dies erreicht werden?",
+    
+    
+    "mobileAppsHowDoesItWork4": "Design Entwurf",
+    
+    "mobileAppsHowDoesItWork5": "Wir bringen Ihre Vorstellungen auf den Bildschirm.",
+    
+    
+    "mobileAppsHowDoesItWork6": "Entwurf finalisieren",
+    
+    "mobileAppsHowDoesItWork7": "Die endgültige Version ist der endgültige Ausdruck der Produktidee.",
+    
+    
+    "mobileAppsHowDoesItWork8": "Beginn der Entwicklung",
+    
+    "mobileAppsHowDoesItWork9": "Das Design wird in die Realität umgesetzt.",
+    
+    
+    "mobileAppsHowDoesItWork10": "Abnahme",
+    
+    "mobileAppsHowDoesItWork11": "Wir testen, verbessern und implementieren das System in Ihre Infrastruktur.",
+    
+    
+    "mobileAppsHowDoesItWork12": "Wartung & Support",
+    
+    "mobileAppsHowDoesItWork13": "Nach Abschluss stehen wir Ihnen weiterhin verlässlich zur Seite.",
+    
+    
+    
+    
+    
+    "mobileAppsExample1": "Beispiel: Sieben Umzüge GmbH",
+    
+    
+    "mobileAppsExample2": "Bildschirm statt Papier",
+    
+    "mobileAppsExample3": "Die neue Mitarbeiter App stellt sämtliche handschriftlichen Prozesse wie die Abfahrtkontrolle, die Arbeitspapiere, den Haftungsausschluss und die Abnahme des Kunden auf den digitalen Betrieb um. Die Fehlerfreiheitsrate und Kommunikationsgeschwindigkeit wurde massiv gesteigert.",
+    
+    
+    "mobileAppsExample4": "Disposition, time recording, transparency",
+    
+    "mobileAppsExample5": "Mit eigenem Kalender und Stundensystem, wissen die Umzugshelfer immer genau, wo sie als nächstes gebraucht werden. Die App ermöglicht die transparente Einsicht in das Zeitkonto und die Möglichkeit, Urlaub zu beantragen oder sonstige Mitteilen ans Büro zumachen. Alle Prozesse innerhalb eines Systems.",
+    
+    
+    "mobileAppsResult1": "Ergebnis",
+    
+    "mobileAppsResult2": "spart pro Umzug -> 30 Minuten",
+    
+    
+    
+    
+    
+    "mobileAppsPlatforms1": "Plattform übergreifend",
+    
+    
+    "mobileAppsPlatforms2": "IOS-Entwicklung",
+    
+    "mobileAppsPlatforms3": "Wir bringen Ihre App in den AppStore. Endlich besteht eine direkte Verbindung zwischen Büro und Außendienst.",
+    
+    
+    "mobileAppsPlatforms4": "Android-Entwicklung",
+    
+    "mobileAppsPlatforms5": "Wir bringen Ihre App in den PlayStore. Machen Sie Ihre Systeme ohne Kosten zugänglich, für alle Ihre Mitarbeiter.",
+    
+    
+     
+    
+    
+    "mobileAppsAnalysis1": "Kostenlose Analyse Ihres Vorhabens",
+    
+    "mobileAppsAnalysis2": "Wir analysieren Ihr Vorhaben auf Sinnhaftigkeit, den zu erwartenden Nutzen und erstellen Ihnen ein Angebot.",
+    
+    "mobileAppsAnalysis3": "Kostenlosen Termin ausmachen",
+    
+    
+    
+    
+    
+    "DigitalizationSection3": "Die Digitalisierung umfasst Aspekte wie den Übergang von physischen zu elektronischen Dokumenten, die Automatisierung von Geschäftsprozessen, die Nutzung von Analysen für die Entscheidungsfindung, die Einführung von Cloud-Technologien, die Entwicklung digitaler Produkte und Dienstleistungen, die Schaffung effektiver Online-Kommunikationskanäle mit Kunden und die Verbesserung der Interaktion zwischen Menschen, Technologie und Systemen.",
+    
+    
+    
+    
+    
+    "DigitalizationHowDoesItWork1": "Wie funktioniert es?",
+    
+    
+    "DigitalizationHowDoesItWork2": "Ziele definieren",
+    
+    "DigitalizationHowDoesItWork3": "Was soll erzielt werden? Wie soll dies erreicht werden?",
+    
+    
+    "DigitalizationHowDoesItWork4": "Design Entwurf",
+    
+    "DigitalizationHowDoesItWork5": "Wir bringen Ihre Vorstellungen auf den Bildschirm.",
+    
+    
+    "DigitalizationHowDoesItWork6": "Entwurf finalisieren",
+    
+    "DigitalizationHowDoesItWork7": "Die endgültige Version ist der endgültige Ausdruck der Produktidee.",
+    
+    
+    "DigitalizationHowDoesItWork8": "Beginn der Entwicklung",
+    
+    "DigitalizationHowDoesItWork9": "Das Design wird in die Realität umgesetzt.",
+    
+    
+    "DigitalizationHowDoesItWork10": "Abnahme",
+    
+    "DigitalizationHowDoesItWork11": "Wir testen, verbessern und implementieren das System in Ihre Infrastruktur.",
+    
+    
+    "DigitalizationHowDoesItWork12": "Wartung & Support",
+    
+    "DigitalizationHowDoesItWork13": "Nach Abschluss stehen wir Ihnen weiterhin verlässlich zur Seite.",
+    
+    
+    
+    
+    "DigitalizationExample1": "Cloud ERP - nahtlose Konnektivität sorgt für rasanten Effizienz-Anstieg",
+    
+    
+    "DigitalizationExample2": "Alle Prozesse in einem System",
+    
+    "DigitalizationExample3": "Schluss mit fehleranfälligen Excel-Tabellen. Alle Excel-Prozesse wurden in ein System gebracht, was die Fehlerquellen reduziert, Überblickt verschafft, die Einarbeitung erleichtert und den Kundenberatern viel Zeit spart. Volle Transparenz für die Boni des Verkaufs, sorgt für extra Engagement.",
+    
+    
+    "DigitalizationExample4": "Intuitive Disposition",
+    
+    "DigitalizationExample5": "Das Whiteboard im Büro nun in digital - bereit zum wachsen. Das intuitive Design nach Vorbild des analogen Systems. Die nahtlose Integration mit allen Systemen, wie der Mitarbeiter App, spart viele lästige Anrufe und das Hin- und Her.",
+    
+    
+    "DigitalizationExample6": "Umfangreiche Statistik",
+    
+    "DigitalizationExample7": "Die ausführliche statistische Auswertung der verschiedenen Geschäftsbereiche ist vital, um die richtigen zukunftsweisenden Entscheidungen treffen zu können. Die Geschäftsführung kann nun klar an Hand von Zahlen Ihre Entscheidungen überprüfen und optimieren.",
+    
+    
+    
+    
+    
+    "DigitalizationExample8": "Kostenlose Analyse Ihres Vorhabens",
+    
+    "DigitalizationExample9": "Wir analysieren Ihr Vorhaben auf Sinnhaftigkeit, den zu erwartenden Nutzen und erstellen Ihnen ein Angebot.",
+    
+    "DigitalizationExample10": "Kostenlosen Termin ausmachen",
+    
+    
+    
+    
+    
+    "AutomationSection4": "Automatisierung hilft, Geschäftsprozesse zu optimieren, die Produktivität der Mitarbeiter zu steigern und Kosten zu senken. Unser Unternehmen bietet fortschrittliche Automatisierungslösungen, damit Sie sich auf die Entwicklung Ihres Unternehmens konzentrieren und Routineaufgaben unseren zuverlässigen Systemen überlassen können. Vertrauen Sie auf Automatisierung - der Weg zu Effizienz und Erfolg für Ihr Unternehmen.",
+    
+    
+    
+    
+    
+    "AutomationHowDoesItWork1": "Wie funktioniert es?",
+    
+    
+    "AutomationHowDoesItWork2": "Ziele definieren",
+    
+    "AutomationHowDoesItWork3": "Was soll erzielt werden? Wie soll dies erreicht werden?",
+    
+    
+    "AutomationHowDoesItWork4": "Design Entwurf",
+    
+    "AutomationHowDoesItWork5": "Wir bringen Ihre Vorstellungen auf den Bildschirm.",
+    
+    
+    "AutomationHowDoesItWork6": "Entwurf finalisieren",
+    
+    "AutomationHowDoesItWork7": "Die endgültige Version ist der endgültige Ausdruck der Produktidee.",
+    
+    
+    "AutomationHowDoesItWork8": "Beginn der Entwicklung",
+    
+    "AutomationHowDoesItWork9": "Das Design wird in die Realität umgesetzt.",
+    
+    
+    "AutomationHowDoesItWork10": "Abnahme",
+    
+    "AutomationHowDoesItWork11": "Wir testen, verbessern und implementieren das System in Ihre Infrastruktur.",
+    
+    
+    "AutomationHowDoesItWork12": "Wartung & Support",
+    
+    "AutomationHowDoesItWork13": "Nach Abschluss stehen wir Ihnen weiterhin verlässlich zur Seite.",
+    
+    
+    
+    
+    
+    
+    "AutomationExample1": "Effiziente Projektaktivitäten dank schrittweiser Projektplanung spart Projektleiter 3,5 Stunden",
+    
+    
+    "AutomationExample2": "Angebotserstellung",
+    
+    "AutomationExample3": "Informationen über alle Ihre Kunden und Mitarbeiter werden an einem Ort gesammelt, und Sie können neue Kontakte hinzufügen und wichtige Informationen eingeben.",
+    
+    
+    "AutomationExample4": "Benötigte Materialien auflisten",
+    
+    "AutomationExample5": "Sehen Sie sich Listen der von Ihnen benötigten Materialien nach Kategorien an, planen Sie deren Bestellung und Menge und verfolgen Sie deren Status an einem Ort.",
+    
+    
+    "AutomationExample6": "Materialien mit Lager abgleichen und bestellen",
+    
+    "AutomationExample7": "Abgleichen Sie sich schnell und einfach die Materialien, die Sie bereits auf Lager haben, und deren Mengen an. Falls erforderlich, können Sie die benötigte Menge sofort bestellen.",
+    
+    
+    "AutomationExample8": "Mitarbeiter und Subunternehmer Aufgaben zuteilen und koordinieren",
+    
+    "AutomationExample9": "Sie können die Liste der Aufgaben und Aufträge, die Sie an Ihre Mitarbeiter delegiert haben, sowie alle Informationen zu Subunternehmern einsehen und werden per E-Mail informiert.",
+    
+    
+    "AutomationExample10": "Finanzielle Auswertung des Projektes",
+    
+    "AutomationExample11": "Verschaffen Sie sich einen schnellen Überblick über die Finanzdaten des Projekts und die dazugehörige Dokumentation. Schlussrechnung versenden und das Projekt archivieren.",
+    
+    
+    
+    
+    
+    "AutomationAnalysis1": "Kostenlose Analyse Ihres Vorhabens",
+    
+    "AutomationAnalysis2": "Wir analysieren Ihr Vorhaben auf Sinnhaftigkeit, den zu erwartenden Nutzen und erstellen Ihnen ein Angebot.",
+    
+    "AutomationAnalysis3": "Kostenlosen Termin ausmachen",
+    
+    
+    
+    
+    
+    "ourProjectsMainPageSection": "Einige unserer Projekte",
+    
+    
+    "ourProjectsMainPageSectionExample1": "Mitarbeiter App",
+    
+    "ourProjectsMainPageSectionExample2": "Bildschirm statt Papier! Sämtliche Dokumente wie die Abfahrskontrolle, Arbeitspapiere, Haftungsausschlüsse, Arbeitsabnahme durch den Kunden, etc. sind nun digital. Dies spart pro Umzug mindestens 30 Minuten Zeit. Zusätzlich wurde die Disposition ins eigene System integriert, was teure Abo-Kosten wegfallen lassen.",
+    
+    
+    "ourProjectsMainPageSectionExample3": "PP Manager",
+    
+    "ourProjectsMainPageSectionExample4": "Photovoltaik Projekt Manager - speziell auf den Verkauf, die Planung, die Montage und die Dokumentierung von PV Projekten entwickelt worden. Spart dem Projektmanager pro Projekt mindestens 3,5 Stunden.",
+    
+    
+    "ourProjectsMainPageSectionExample5": "Quotely Wallpapers",
+    
+    "ourProjectsMainPageSectionExample6": "Quotely Wallpapers ist der Marktplatz für Bildschirmhintergründe für Handys. Kreativität und Kunst trifft auf die Zielgruppe. Es ist Schluss mit einheitlichen Hintergründen. Künstler verdienen mit ihrem Hobby Geld.",
+    
+    
+    "ourProjectsMainPageSectionExample7": "Super Easy CRM",
+    
+    "ourProjectsMainPageSectionExample8": "Das simple CRM für den klassischen B2B Außendienst. Aus Eigenbedarf entstanden und nun kostenlos für die Öffentlichkeit zur Verfügung gestellt. Laden Super Easy CRM runter und probieren die App aus.",
+    
+    
+    
+    
+    
+    "quoteMainPageSection1": "Lästige Dinge sollten Maschinen erledigen.",
+    
+    "quoteMainPageSection2": "Volker Hütter, Geschäftsführer",
+    
+    
+    
+    
+    
+    "teamMainPageSection": "Über uns",
+    
+    "teamMainPageButton": "Alle sehen",
+    
+    "teamMember1": "Geschäftsführer",
+    
+    "teamMember2": "Personalleiter",
+    
+    "teamMember3": "Technischer Leiter",
+    
+    "teamMember4": "Design Leiterin",
+    
+    "teamMember5": "SEA Ingenieur",
+    
+    "teamMember6": "SEO Ingenieurin",
+    
+    "teamMember7": "UI/UX Designer",
+    
+    "teamMember8": "Front-End Entwickler",
+    
+    "teamMember9": "Front-End Entwickler",
+    
+    "teamMember10": "Front-End Entwickler",
+    
+    "teamMember11": "Front-End Entwickler",
+    
+    "teamMember12": "Back-End Entwickler",
+    
+    "teamMember13": "Android Entwickler",
+    
+    "teamMember14": "DevOps Ingenieur",
+    
+    "teamMember15": "QA Ingenieur",
+    
+    "teamMember16": "E-Commerce & Assistenz der Geschäftsführung",
+    
+    "teamMember17": "Werbung & Assistenz der Geschäftsführung",
+    
+    
+    
+    
+    
+    "ourPartnersMainPageSection": "Unsere Partner",
+    
+    
+    
+    
+    
+    "contactUsMainPageSection1": "Kontakt aufnehmen",
+    
+    
+    "contactUsMainPageSection2": "Vorname",
+    
+    "contactUsMainPageSection3": "E-Mail",
+    
+    "contactUsMainPageSection4": "Notizen",
+    
+    "contactUsMainPageSection5": "Sagen Sie uns, womit wir Ihnen helfen können",
+    
+    "contactUsMainPageSection6": "Senden",
+    
+    
+    
+    
+    
+    "bottomBarMainPageSectionQuote": "IT-Technologien der Zukunft: Revolutionierung von heute für ein verbessertes Morgen.",
+    
+    
+    
+    
+    
+    "bottomBarMainPageSectionNavigation1": "Navigation",
+    
+    
+    "bottomBarMainPageSectionNavigation2": "Unsere Dienstleistungen",
+    
+    "bottomBarMainPageSectionNavigation3": "Unsere Projekte",
+    
+    "bottomBarMainPageSectionNavigation4": "Über uns",
+    
+    "bottomBarMainPageSectionNavigation5": "Kontakt",
+    
+    "bottomBarMainPageSectionNavigation6": "Impressum",
+    
+    
+    
+    
+    
+    "bottomBarMainPageSectionInformation1": "Information",
+    
+    "bottomBarMainPageSectionInformation2": "Krummlandstraße 22, 74081 Heilbronn, Deutschland",
+    
+    "bottomBarMainPageSectionInformation3": "info@icapgroupgmbh.com",
+    
+    "bottomBarMainPageSectionInformation4": "07131 3829180",
+    
+    "bottomBarMainPageSectionInformation5": "Datenschutzbestimmungen",
+    
+    
+    
+    
+    
+    "bottomBarMainPageSection2023IcapGroup": "Alle Rechte vorbehalten."
+    }

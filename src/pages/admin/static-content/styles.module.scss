@@ -1,0 +1,54 @@
+@import "@/styles/variables";
+.wrapper{
+  width: 100%;
+}
+
+.container{
+  margin-top: 42px;
+}
+.header{
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pageName{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+
+}
+.saveBtn{
+
+}
+.content{
+
+}
+.filterBlock{
+
+}
+.pages{
+  width: fit-content;
+  padding: 32px;
+  border: 1px solid #D9D9D9;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.page{
+  display: block;
+  padding: 10px 16px;
+  border-radius: 8px;
+}
+.activePage{
+
+}
+
+
+.lang{
+
+}
+.data{
+
+}

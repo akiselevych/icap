@@ -1,0 +1,83 @@
+@import '@/styles/variables';
+.container{
+  padding-top: 28px;
+  padding-bottom: 28px;
+  position: relative;
+  @media (max-width: 630px) {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  @media (max-width: 350px) {
+    padding: 0;
+  }
+}
+.wrapper{
+  @media (min-width: 561px) {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+.title{
+  text-align: center;
+  margin-bottom: 36px;
+}
+.content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  @media (max-width: 810px) {
+    justify-content: center;
+  }
+}
+
+
+.logoWrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo1{
+  @media (max-width: $mobileSize) {
+    width: 56px;
+    height: 20px;
+  }
+}
+.logo2{
+  @media (max-width: $mobileSize) {
+    width: 38px;
+    height: 38px;
+  }
+}
+.logo3{
+  @media (max-width: $mobileSize) {
+    width: 112px;
+    height: 20px;
+  }
+}
+.logo4{
+  @media (max-width: $mobileSize) {
+    width: 48px;
+    height: 30px;
+  }
+}
+.logo5{
+  @media (max-width: $mobileSize) {
+    width: 75px;
+    height: 20px;
+  }
+}
+.logo6{
+  @media (max-width: $mobileSize) {
+    width: 60px;
+    height: 38px;
+  }
+}
+.logo7{
+  @media (max-width: $mobileSize) {
+    width: 64px;
+    height: 20px;
+  }
+}

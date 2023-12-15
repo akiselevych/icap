@@ -1,0 +1,71 @@
+@import "@/styles/variables";
+
+.container {
+    border-radius: 8px;
+    width: 100%;
+    height: 420px;
+    background-color: $lightBlueColor;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: all 0.5s ease-in-out;
+    padding-right: 15px;
+    background-repeat: no-repeat;
+    background-image: url("/images/blueDotsBg.svg"),
+    url("/images/blueDotsBg.svg");
+    &:nth-child(1) {
+        background-position: 200px 30px, right 30px top 90px;
+    }
+    &:nth-child(2) {
+        background-position: left 40% top 30px, left 40% top 30px;
+    }
+    &:nth-child(2n) {
+        flex-direction: row-reverse;
+        padding-left: 15px;
+        @media (max-width: 695px) {
+            flex-direction: column;
+        }
+    }
+
+    @media (max-width: 940px) {
+        justify-content: center;
+    }
+    @media (max-width: 695px) {
+        height: fit-content;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+}
+
+.image {
+    transition: all 0.5s ease-in-out;
+
+    img {
+        max-width: clamp(20.375rem, 15.366rem + 22.26vw, 32.063rem);
+        max-height: clamp(14.875rem, 12.357rem + 11.19vw, 20.75rem);
+    }
+
+    @media (max-width: 695px) {
+        margin-bottom: 14px;
+    }
+}
+
+.text {
+    max-width: 294px;
+    @media (max-width: 695px) {
+        padding: 0 15px 15px;
+    }
+}
+
+.title {
+    margin-bottom: 12px;
+    @media (max-width: 695px) {
+        text-align: center;
+    }
+}
+
+.desc {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}

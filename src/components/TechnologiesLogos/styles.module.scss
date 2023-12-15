@@ -1,0 +1,47 @@
+@import "@/styles/variables";
+
+.container {
+    width: 100vw;
+    background: #f7f7f7;
+    display: flex;
+    justify-content: center;
+}
+.content {
+    max-width: 1024px;
+    width: 100%;
+    padding: 49px 8px 65px 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+    @media (max-width: $tabletSize) {
+        padding: 24px 8px 48px 8px;
+        gap: 20px;
+    }
+}
+.title {
+    text-align: center;
+    margin-bottom: 18px;
+}
+.subtitle {
+    color: #2e2e2e;
+    text-align: center;
+    margin-bottom: 10px;
+    @media (max-width: $tabletSize) {
+        margin-bottom: 37px;
+    }
+}
+.logosBlock {
+    display: flex;
+    justify-content: space-between;
+    gap: 56px;
+    flex-wrap: wrap;
+}
+.logo {
+    flex: 1 1 auto;
+    width: auto;
+    height: auto;
+    max-height: 82px;
+    @media (max-width: $tabletSize) {
+        max-height: 64px;
+    }
+}

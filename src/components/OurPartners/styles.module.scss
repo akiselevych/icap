@@ -1,0 +1,72 @@
+@import "@/styles/variables";
+.container {
+    width: 100vw;
+}
+.title {
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.logos {
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+
+.logos:before,
+.logos:after {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+
+    @media (max-width: $tabletSize) {
+        width: 150px;
+    }
+    @media (max-width: $mobileSize) {
+        width: 90px;
+    }
+}
+.logos:before {
+    left: 0;
+    background: linear-gradient(to left, rgb(255, 255, 255, 0), white);
+}
+.logos:after {
+    right: 0;
+    background: linear-gradient(to right, rgb(255, 255, 255, 0), white);
+}
+
+.logoSlide {
+    animation: slide 30s linear infinite running;
+    @media (max-width: $mobileSize) {
+        animation: slide 19s linear infinite running;
+    }
+}
+
+.logoSlide img {
+    border-radius: 10px;
+    box-shadow: 0px 0px 32px 0px rgba(21, 83, 183, 0.09);
+    padding: 10px;
+    height: 96px;
+    width: auto;
+    margin-right: 88px;
+    @media (max-width: $tabletSize) {
+        height: 44px;
+        margin-right: 60px;
+    }
+    @media (max-width: $mobileSize) {
+        height: 44px;
+        margin-right: 30px;
+    }
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}

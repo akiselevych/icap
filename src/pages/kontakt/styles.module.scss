@@ -1,0 +1,62 @@
+@import "@/styles/variables";
+
+.container {
+    width: 100%;
+    display: flex;
+}
+.calendlyBlock {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    border-radius: 8px;
+    padding: 48px;
+    background: url("/images/whiteDotsBg.svg") no-repeat top 32px right 33px,
+        url("/images/whiteDotsBg.svg") no-repeat top 20% right 30%,
+        url("/images/whiteDotsBg.svg") no-repeat bottom 40px right 40px;
+    background-color: $primaryColor;
+}
+.infoBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.infoRow {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
+}
+.contactPersonBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.contactPersonName {
+}
+.btn {
+    min-width: 186px;
+}
+.startProjectBlock {
+    width: 50%;
+}
+@media (max-width: $tabletSize) {
+    .container {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 64px;
+    }
+    .calendlyBlock {
+        width: 100%;
+        align-items: center;
+    }
+    .image {
+        max-width: 100%;
+        height: auto;
+    }
+    .startProjectBlock {
+        width: auto;
+    }
+}
+@media (max-width: $mobileSize) {
+}

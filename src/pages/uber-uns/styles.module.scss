@@ -1,0 +1,24 @@
+@import "@/styles/variables";
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    align-items: flex-start;
+}
+.cardContaier {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    width: 100%;
+    justify-content: center;
+}
+.cardWrapper {
+    width: max-content;
+}
+.title {
+    padding: 0 16px;
+    width: 100%;
+    text-align: left;
+}

@@ -1,0 +1,51 @@
+@import "@/styles/variables";
+
+.container {
+  width: 100%;
+}
+
+.header {
+  padding: 20px 18px;
+  display: flex;
+  gap: 30%;
+  border: 1px solid #DEDEDE;
+}
+
+.colName {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.table {
+  border-left: 1px solid #DEDEDE;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.col {
+  padding: 20px 18px 33px;
+  border-right: 1px solid #DEDEDE;
+  border-bottom: 1px solid #DEDEDE;
+  border-left: 1px solid transparent;
+  border-top: 1px solid transparent;
+}
+
+.key {
+  font-size: 14px;
+  width: 170px;
+}
+
+
+.input {
+  padding-top: 12px;
+  padding-left: 16px;
+  padding-bottom: 12px;
+
+  &:focus {
+    border: 1px solid $primaryColor;
+  }
+}

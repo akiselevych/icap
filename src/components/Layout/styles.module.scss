@@ -1,0 +1,42 @@
+@import "@/styles/variables";
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+.main {
+    box-sizing: border-box;
+    padding-top: 128px;
+    padding-bottom: 128px;
+    padding-right: 24px;
+    padding-left: 24px;
+    max-width: 1072px;
+    flex: 1 1 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: clamp(6.875rem, 5.852rem + 5.11vw, 9.125rem);
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 555999;
+}
+@media (max-width: $tabletSize) {
+    .main {
+        padding-top: 96px;
+        padding-bottom: 96px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}

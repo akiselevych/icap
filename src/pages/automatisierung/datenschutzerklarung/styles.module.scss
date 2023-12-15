@@ -1,0 +1,74 @@
+@import "@/styles/variables";
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    align-items: flex-start;
+    overflow-wrap: break-word;
+}
+.titleBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.pageSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+.infoBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+.infoSubBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.infoBlockTitle {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.infoBlockText {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.important {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: $primaryColor;
+}
+.underline {
+    text-decoration: underline;
+}
+.infoSubSubBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.infoBlockTextItem,.infoSubSubBlock{
+    li{
+        list-style-type: disc;
+        margin-left: 24px;
+        li{
+            list-style-type: circle;
+        }
+    }
+    a{
+        text-decoration: underline;
+    }
+}
+.subSubTitle {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+}

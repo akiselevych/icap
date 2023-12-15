@@ -1,0 +1,124 @@
+@import "@/styles/variables";
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.history {
+    width: 100%;
+    display: flex;
+    gap: 8px;
+}
+.historyItem {
+    color: $greyColor;
+    cursor: pointer;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.block {
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0px 0px 32px 0px rgba(21, 83, 183, 0.06);
+    padding: 32px;
+}
+.topBlock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    width: 100%;
+    @media (max-width: $tabletSize) {
+        flex-direction: column;
+    }
+    .image {
+        margin-right: 96px;
+        @media (max-width: 1024px) {
+            margin-right: 0px;
+        }
+    }
+}
+.blocksContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: 1024px) {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+.leftContainer {
+    width: calc(50% - 12px);
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    @media (max-width: 1024px) {
+        width: 100%;
+    }
+}
+.rightContainer {
+    width: calc(50% - 12px);
+    @media (max-width: 1024px) {
+        width: 100%;
+    }
+}
+.smallBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+}
+.points {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.textBlock {
+    max-width: 490px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.title {
+}
+.descrBlock {
+}
+.descrItem {
+}
+.city {
+    position: relative;
+    text-align: center;
+}
+.city::after,
+.type::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -6px;
+    height: 2px;
+    width: 2px;
+    border-radius: 50%;
+    background-color: #bdbdbd; /* Your desired background color */
+}
+
+.type {
+    position: relative;
+    text-align: center;
+}
+.dateBlock {
+    color: $greyColor;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.optionRow {
+    color: $greyColor;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 16px;
+}

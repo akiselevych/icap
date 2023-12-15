@@ -1,0 +1,146 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: clamp(6.875rem, 5.852rem + 5.11vw, 9.125rem);
+
+  @media (max-width: 1100px) {
+    margin-top: 101px;
+    gap: 37px;
+  }
+
+  .background {
+    position: absolute;
+    width: 100vw;
+    justify-self: start;
+    align-self: flex-start;
+    object-fit: contain;
+    z-index: -1;
+
+    left: 0;
+    height: auto;
+    @media (max-width: 1100px) {
+      display: none;
+    }
+  }
+  .mobileBackground {
+    display: none;
+    @media (max-width: 1100px) {
+      display: block;
+      position: absolute;
+      width: 100vw;
+      justify-self: start;
+      align-self: flex-start;
+      object-fit: contain;
+      z-index: -1;
+
+      left: 0;
+      height: auto;
+    }
+  }
+  .titles {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    justify-content: center;
+    align-items: center;
+
+    @media (max-width: 720px) {
+      gap: 18px;
+    }
+
+    .title {
+      color: #2e2e2e;
+      text-align: center;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-transform: capitalize;
+
+      @media (max-width: 720px) {
+        color: #1f2125;
+        font-size: 24px;
+      }
+    }
+
+    .subtitle {
+      color: #2e2e2e;
+      text-align: center;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px; /* 150% */
+    }
+  }
+
+  .cards {
+    display: flex;
+    gap: 65px;
+    align-items: center;
+    justify-content: center;
+
+    @media (max-width: 1100px) {
+      flex-direction: column;
+      gap: 30px;
+    }
+
+    .gappedFlex {
+      display: flex;
+      gap: 65px;
+      align-items: center;
+      @media (max-width: 1100px) {
+        flex-direction: column;
+        gap: 30px;
+      }
+
+      .horizontalLine {
+        display: none;
+        border-top: 1px solid #1f2125;
+        width: 99px;
+
+        @media (max-width: 1100px) {
+          display: inline;
+          margin: 0;
+        }
+      }
+
+      .verticalLine {
+        @media (max-width: 1100px) {
+          display: none;
+        }
+      }
+    }
+
+    .card {
+      display: flex;
+      height: 152px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      &:first-child {
+        padding: 0px 24px;
+      }
+      .rating {
+        color: #0e65f1;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 72px; /* 112.5% */
+
+        @media (max-width: 720px) {
+          font-size: 52px;
+        }
+      }
+      .label {
+        color: #2e2e2e;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px; /* 222.222% */
+      }
+    }
+  }
+}

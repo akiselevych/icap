@@ -1,0 +1,51 @@
+@import "@/styles/variables";
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    align-items: flex-start;
+    overflow-wrap: break-word;
+}
+.topBlock {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.toolBar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pagePicker {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+    span {
+        width: 1px;
+        height: 16px;
+        background: #e0e0e0;
+    }
+}
+.link {
+    padding: 6px 14px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.active {
+    background: $primaryColor;
+    color: #fff;
+}
+.addBtn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: $primaryColor;
+    cursor: pointer;
+}

@@ -1,0 +1,116 @@
+@import "@/styles/variables";
+
+.container {
+    width: 100%;
+    overflow-x: clip;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 40px;
+    @media (max-width: 800px) {
+        margin-bottom: 5px;
+    }
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+}
+
+.lastBlock {
+    width: 100%;
+    margin-top: 44px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 58px;
+    padding-bottom: 58px;
+    background: url("/images/blueDotsBg.svg") no-repeat top 50px left 20px,
+    url("/images/blueDotsBg.svg") no-repeat top 10px right 10px,
+    url("/images/blueDotsBg.svg") no-repeat bottom 90px right 60px;
+    background-color: $lightBlueColor;
+}
+
+.blockTitle {
+    margin-bottom: 80px;
+    text-align: center;
+
+    @media (max-width: 800px) {
+        margin-bottom: 35px;
+    }
+}
+
+.blockContent {
+    display: flex;
+    align-items: center;
+    gap: 96px;
+    position: relative;
+
+    @media (max-width: 800px) {
+        flex-direction: column;
+        gap: 24px;
+    }
+}
+
+.blockText {
+    border-bottom: 3px solid #00538e;
+    padding-bottom: 20px;
+    z-index: 5;
+    background-color: $lightBlueColor;
+    @media (max-width: 800px) {
+        border: none;
+        padding-bottom: 5px;
+    }
+}
+
+.blockText,
+.blockTextSec {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+
+    span {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        color: #00538e;
+    }
+}
+
+.arrow {
+    position: absolute;
+    bottom: -4%;
+    right: 34%;
+    border: solid #00538e;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+    --webkit-transform: rotate(-45deg);
+    z-index: 9999;
+    @media (max-width: 800px) {
+        bottom: 21%;
+        right: 48%;
+        transform: rotate(45deg);
+        --webkit-transform: rotate(45deg);
+    }
+}
+
+.arrowVert {
+    display: none;
+    z-index: 1;
+    @media (max-width: 800px) {
+        display: block;
+
+        position: absolute;
+        top: 30%;
+        right: 50%;
+        height: 95px;
+        width: 3px;
+        background-color: #00538e;
+    }
+}

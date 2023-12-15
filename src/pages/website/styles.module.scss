@@ -1,0 +1,41 @@
+@import "@/styles/variables";
+
+.container {
+  width: 100%;
+}
+
+.header {
+
+}
+.trustComp{
+  margin-bottom: clamp(5rem, 2.045rem + 14.77vw, 11.5rem);
+}
+.title {
+  max-width: 1024px;
+  text-align: center;
+  padding: 0 15px;
+  margin: 0 auto 12px;
+
+}
+
+.colored {
+  color: $primaryColor;
+}
+
+.desc {
+  font-size: clamp(1rem, 0.929rem + 0.36vw, 1.25rem);
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.headerBtn {
+  margin: 0 auto 48px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  @media (max-width: 450px) {
+    margin: 0 auto 32px;
+  }
+}

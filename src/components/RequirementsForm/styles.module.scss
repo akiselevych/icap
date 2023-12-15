@@ -1,0 +1,152 @@
+@import "@/styles/variables";
+
+.container {
+  position: relative;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.title {
+  color: $primaryColor;
+  margin: 0 auto 24px;
+  max-width: 1100px;
+  text-align: center;
+}
+
+.animWrap {
+  opacity: 1;
+  transition: all 0.3s ease-in;
+}
+
+.hiddenAnimWrap {
+  opacity: 0;
+}
+
+.form {
+  max-width: 800px;
+  width: 100%;
+  min-height: 392px;
+  margin: 0 auto;
+  padding: clamp(3rem, 2.545rem + 2.27vw, 4rem) clamp(1rem, 0.091rem + 4.55vw, 3rem);
+  box-shadow: 0px 4px 24px 0px #7E83FF26;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  @media (max-width: 576px) {
+    min-height: 496px;
+  }
+}
+
+.btnWrap {
+  display: flex;
+  justify-content: space-between;
+  height: 58px;
+
+  @media (max-width: 620px) {
+    margin-top: 20px;
+    flex-direction: column-reverse;
+    height: fit-content;
+    gap: 16px;
+  }
+}
+
+.rightBtns {
+  display: flex;
+  gap: 12px;
+  position: relative;
+  min-width: 150px;
+  height: 58px;
+  margin-left: auto;
+  @media (max-width: 620px) {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+  }
+}
+
+.backBtn {
+  margin-right: auto;
+  transition: all 0.3s ease-in;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  @media (max-width: 620px) {
+    width: 269px;
+    margin: 0 auto;
+  }
+  @media (max-width: 380px) {
+    font-size: 14px;
+    padding: 16px 24px;
+  }
+}
+
+.nextBtn {
+  max-width: 150px;
+  margin-left: auto;
+  transition: opacity 0.3s ease-in;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  @media (max-width: 620px) {
+    width: 269px;
+    margin-left: 0;
+    max-width: none;
+  }
+  @media (max-width: 380px) {
+    font-size: 14px;
+    padding: 16px 24px;
+  }
+
+  &:disabled {
+    cursor: auto;
+    box-shadow: none;
+  }
+}
+
+.skipBtn {
+  cursor: pointer;
+  position: static !important;
+  z-index: 2;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  @media (max-width: 620px) {
+    width: 269px;
+  }
+  @media (max-width: 380px) {
+    font-size: 14px;
+    padding: 16px 24px;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    box-shadow: none;
+    &:hover{
+      background-color: transparent;
+    }
+  }
+}
+
+.activeBtn {
+  opacity: 1;
+}
+.hiddenSkipBtn {
+  opacity: 0;
+}
+.hiddenBtn {
+  height: 58px;
+  opacity: 0;
+  position: absolute !important;
+  cursor: auto;
+  pointer-events: none;
+  @media (max-width: 620px) {
+    height: 100%;
+    position: static !important;
+  }
+}
